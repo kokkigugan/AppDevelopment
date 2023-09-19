@@ -3,7 +3,6 @@
 
 ### Sri Krishna College of Technology
 
----
 
 ## Introduction
 
