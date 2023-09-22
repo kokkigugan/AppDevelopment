@@ -1,0 +1,131 @@
+/* footer.css */
+
+/* Footer Styles */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00000019;
+  color: #fff;
+  padding: 20px; 
+  border: #0b050500;
+}
+
+/* Contact Form Styles */
+.contact-form {
+  width: 30%;
+  padding: 20px;
+  background-color: #44444400;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.585);
+}
+
+.contact-form .title {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.contact-form .input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5555558a;
+  color: #fff;
+}
+
+.contact-form button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #ff9933;
+}
+
+/* Social Media Links Styles */
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.social-icon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #ca6d3071;
+}
+
+/* Review Section Styles */
+.review-section {
+  width: 30%;
+  text-align: right;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  color: #fff;
+}
+
+.review-section h3 {
+  font-size: 24px;
+  color: #5d473800;
+  margin-bottom: 10px;
+}
+
+.review-section p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Star Rating Styles */
+.star-rating {
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  background-color: #44444401;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.61);
+  color: #fff;
+}
+
+.star-rating h3 {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/* Review Submission Styles */
+.review-submission {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.review-submission button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.review-submission button:hover {
+  background-color: #ff3300;
+}

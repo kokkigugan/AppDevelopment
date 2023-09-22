@@ -1,0 +1,116 @@
+/* login.css */
+
+/* Background Styles */
+.medical-login-background {
+  background-size: cover;
+  background-size: 20cm;
+  margin-right: 2px;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form Styles */
+.medical-login-form {
+  background-color: rgba(255, 255, 255, 0); /* Slightly more opaque background */
+  padding: 20px;
+  margin-top: 40px;
+  position: absolute;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.medical-login-form h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 10px 20px; /* Added missing 'px' values for margin */
+}
+
+.input-form {
+  margin-bottom: 20px; /* Increase the spacing between input fields */
+  position: relative; /* Add relative positioning for tooltip */
+}
+
+.pass {
+  margin-right: auto;
+}
+
+.user {
+  margin-right: auto;
+}
+
+.input {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease; /* Add a smooth transition for input focus */
+}
+
+.input:focus {
+  border-color: #0073e6; /* Change input border color on focus */
+}
+
+/* Error Tooltip Styles */
+.error-tooltip {
+  display: none;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 100%;
+  background-color: #ff5733;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.input-form.invalid .error-tooltip {
+  display: block;
+}
+
+/* Button Styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add spacing between form and buttons */
+}
+
+.button-submit,
+.button-signup {
+  padding: 8px 16px; /* Slightly larger buttons for better touch targets */
+  font-size: 14px; /* Increase button font size */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition for button hover */
+}
+
+.button-submit {
+  background-color: #0073e6;
+  color: white;
+  margin-right: 10px;
+}
+
+.button-signup {
+  background-color: #28a745;
+  color: white;
+}
+
+.button-submit:hover,
+.button-signup:hover {
+  background-color: #005bbf; /* Darken button color on hover */
+  filter: brightness(1.2);
+}
+
+span {
+  font-weight: bold;
+  color: #777;
+}

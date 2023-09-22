@@ -1,0 +1,89 @@
+/* signup.css */
+
+/* Form Box Styles */
+.form-box {
+  background-size: cover;
+  background-size: 20cm;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Form Styles */
+.form {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  margin-bottom: 150px;
+  position: absolute;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);/* Make sure the form takes the available width */
+}
+
+
+.title {
+  font-size: 24px;
+  color: #333;
+  margin: 0 0 20px;
+}
+
+.form-container {
+  margin-bottom: 20px;
+
+}
+
+.input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color: #0073e6;
+}
+
+/* Button Styles */
+button {
+  padding: 8px 8px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"] {
+  background-color: #0073e6;
+  color: white;
+  margin-right: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+button[type="submit"]:hover {
+  background-color: #005bbf;
+  filter: brightness(1.2);
+}
+
+/* Span Styles */
+span {
+  font-weight: bold;
+  color: #777;
+}
