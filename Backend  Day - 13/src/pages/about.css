@@ -1,0 +1,32 @@
+/* Add this CSS to your component's stylesheet */
+
+.about-us {
+    background-color: #ffffff; /* Vibrant blue background */
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: #000000; /* White text color */
+  }
+  
+  .about-us h2 {
+    font-size: 36px; /* Large title font size */
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 18px; /* Subtitle font size */
+    margin-bottom: 30px;
+    font-weight: 300; /* Lighter font weight */
+  }
+  
+  .about-us p:last-child {
+    margin-bottom: 0; /* Remove bottom margin from the last paragraph */
+  }
+  
+  /* Add a hover effect for a subtle animation */
+  .about-us:hover {
+    background-color: #c87b7b; /* Darker blue on hover */
+    transform: scale(1.02); /* Slight scale-up on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
